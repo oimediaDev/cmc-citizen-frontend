@@ -83,7 +83,7 @@
     "i18next-conv": "^10.2.0",
     "i18next-express-middleware": "^1.9.1",
     "i18next-sprintf-postprocessor": "^0.2.2",
-    "jquery": "3.6.0",
+    "jquery": "3.7.0",
     "js-base64": "^2.5.1",
     "launchdarkly-node-server-sdk": "^7.0.0",
     "ldclient-node": "^5.8.0",
