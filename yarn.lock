@@ -1182,7 +1182,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/express@npm:*, @types/express@npm:^4.17.2":
+"@types/express-serve-static-core@npm:^4.17.33":
+  version: 4.17.35
+  resolution: "@types/express-serve-static-core@npm:4.17.35"
+  dependencies:
+    "@types/node": "*"
+    "@types/qs": "*"
+    "@types/range-parser": "*"
+    "@types/send": "*"
+  checksum: cc8995d10c6feda475ec1b3a0e69eb0f35f21ab6b49129ad5c6f279e0bc5de8175bc04ec51304cb79a43eec3ed2f5a1e01472eb6d5f827b8c35c6ca8ad24eb6e
+  languageName: node
+  linkType: hard
+
+"@types/express@npm:*":
   version: 4.17.13
   resolution: "@types/express@npm:4.17.13"
   dependencies:
@@ -1191,6 +1203,18 @@ __metadata:
     "@types/qs": "*"
     "@types/serve-static": "*"
   checksum: 12a2a0e6c4b993fc0854bec665906788aea0d8ee4392389d7a98a5de1eefdd33c9e1e40a91f3afd274011119c506f7b4126acb97fae62ae20b654974d44cba12
+  languageName: node
+  linkType: hard
+
+"@types/express@npm:^4.17.17":
+  version: 4.17.17
+  resolution: "@types/express@npm:4.17.17"
+  dependencies:
+    "@types/body-parser": "*"
+    "@types/express-serve-static-core": ^4.17.33
+    "@types/qs": "*"
+    "@types/serve-static": "*"
+  checksum: 0196dacc275ac3ce89d7364885cb08e7fb61f53ca101f65886dbf1daf9b7eb05c0943e2e4bbd01b0cc5e50f37e0eea7e4cbe97d0304094411ac73e1b7998f4da
   languageName: node
   linkType: hard
 
@@ -1375,6 +1399,16 @@ __metadata:
   version: 7.5.0
   resolution: "@types/semver@npm:7.5.0"
   checksum: 0a64b9b9c7424d9a467658b18dd70d1d781c2d6f033096a6e05762d20ebbad23c1b69b0083b0484722aabf35640b78ccc3de26368bcae1129c87e9df028a22e2
+  languageName: node
+  linkType: hard
+
+"@types/send@npm:*":
+  version: 0.17.1
+  resolution: "@types/send@npm:0.17.1"
+  dependencies:
+    "@types/mime": ^1
+    "@types/node": "*"
+  checksum: 10b620a5960058ef009afbc17686f680d6486277c62f640845381ec4baa0ea683fdd77c3afea4803daf5fcddd3fb2972c8aa32e078939f1d4e96f83195c89793
   languageName: node
   linkType: hard
 
@@ -3398,7 +3432,7 @@ __metadata:
     "@types/config": ^0.0.38
     "@types/cookies": ^0.7.6
     "@types/csurf": ^1.9.36
-    "@types/express": ^4.17.2
+    "@types/express": ^4.17.17
     "@types/i18next-sprintf-postprocessor": ^0.2.0
     "@types/jsonwebtoken": ^8.3.7
     "@types/lodash": ^4.14.170
@@ -6082,7 +6116,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^1.2.7#~builtin<compat/fsevents>":
   version: 1.2.13
-  resolution: "fsevents@patch:fsevents@npm%3A1.2.13#~builtin<compat/fsevents>::version=1.2.13&hash=d11327"
+  resolution: "fsevents@patch:fsevents@npm%3A1.2.13#~builtin<compat/fsevents>::version=1.2.13&hash=18f3a7"
   dependencies:
     bindings: ^1.5.0
     nan: ^2.12.1
@@ -6092,7 +6126,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -11644,7 +11678,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.1.6#~builtin<compat/resolve>, resolve@patch:resolve@^1.1.7#~builtin<compat/resolve>, resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.3.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.4.0#~builtin<compat/resolve>":
   version: 1.22.0
-  resolution: "resolve@patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=07638b"
   dependencies:
     is-core-module: ^2.8.1
     path-parse: ^1.0.7
@@ -11657,7 +11691,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.12.0#~builtin<compat/resolve>":
   version: 1.22.3
-  resolution: "resolve@patch:resolve@npm%3A1.22.3#~builtin<compat/resolve>::version=1.22.3&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.3#~builtin<compat/resolve>::version=1.22.3&hash=07638b"
   dependencies:
     is-core-module: ^2.12.0
     path-parse: ^1.0.7
@@ -11670,7 +11704,7 @@ __metadata:
 
 "resolve@patch:resolve@~1.7.1#~builtin<compat/resolve>":
   version: 1.7.1
-  resolution: "resolve@patch:resolve@npm%3A1.7.1#~builtin<compat/resolve>::version=1.7.1&hash=3bafbf"
+  resolution: "resolve@patch:resolve@npm%3A1.7.1#~builtin<compat/resolve>::version=1.7.1&hash=07638b"
   dependencies:
     path-parse: ^1.0.5
   checksum: c2a6f0e3856ac1ddc8297091c20ca6c36d99bf289ddea366c46bd2a7ed8b31075c7f9d01ff5d390ebed1fe41b9fabe57a79ae087992ba92e3592f0c3be07c1ac
@@ -13518,7 +13552,7 @@ __metadata:
 
 "typescript@patch:typescript@^3.9.8#~builtin<compat/typescript>":
   version: 3.9.10
-  resolution: "typescript@patch:typescript@npm%3A3.9.10#~builtin<compat/typescript>::version=3.9.10&hash=3bd3d3"
+  resolution: "typescript@patch:typescript@npm%3A3.9.10#~builtin<compat/typescript>::version=3.9.10&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
